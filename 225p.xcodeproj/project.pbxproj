@@ -21,6 +21,7 @@
 		84166D87187C33EA0097A39F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84166D69187C33EA0097A39F /* UIKit.framework */; };
 		84166D8F187C33EA0097A39F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84166D8D187C33EA0097A39F /* InfoPlist.strings */; };
 		84166D91187C33EA0097A39F /* _25pTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84166D90187C33EA0097A39F /* _25pTests.m */; };
+		84C68D55187C55F10041F89A /* steve_jobs_apple_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C68D54187C55F10041F89A /* steve_jobs_apple_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		84166D8C187C33EA0097A39F /* 225pTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "225pTests-Info.plist"; sourceTree = "<group>"; };
 		84166D8E187C33EA0097A39F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84166D90187C33EA0097A39F /* _25pTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _25pTests.m; sourceTree = "<group>"; };
+		84C68D54187C55F10041F89A /* steve_jobs_apple_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steve_jobs_apple_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		84166D6B187C33EA0097A39F /* 225p */ = {
 			isa = PBXGroup;
 			children = (
+				84C68D54187C55F10041F89A /* steve_jobs_apple_logo.png */,
 				84166D74187C33EA0097A39F /* AppDelegate.h */,
 				84166D75187C33EA0097A39F /* AppDelegate.m */,
 				84166D77187C33EA0097A39F /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84166D7E187C33EA0097A39F /* Images.xcassets in Resources */,
+				84C68D55187C55F10041F89A /* steve_jobs_apple_logo.png in Resources */,
 				84166D70187C33EA0097A39F /* InfoPlist.strings in Resources */,
 				84166D79187C33EA0097A39F /* Main.storyboard in Resources */,
 			);
@@ -460,6 +464,7 @@
 				84166D96187C33EA0097A39F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84166D97187C33EA0097A39F /* Build configuration list for PBXNativeTarget "225pTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				84166D99187C33EA0097A39F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
